@@ -48,6 +48,10 @@ int main () {
       scanf("%f", &valor_c);
       
       valor_a_hipotenusa = sqrt ( pow(valor_b,2)+pow(valor_c,2) );
+   
+      /* valor_a_hipotenusa = hypot ( valor_b, valor_c );  
+      http://en.cppreference.com/w/c/numeric/math/hypot 
+      hypot(x, y) */
       
       printf("\n\t*****************************************************\n");
       printf("\t\t\tTu resultado es: %.2f \n",  valor_a_hipotenusa);
